@@ -1,0 +1,95 @@
+/* donation.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0d6efd;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.donation-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.donation-box h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.donation-box form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.donation-box form input[type="text"], 
+.donation-box form input[type="email"], 
+.donation-box form input[type="number"], 
+.donation-box form select, 
+.donation-box form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.donation-box form button {
+    background:#0d6efd;
+    color: #fff;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.donation-box form button:hover {
+    background: #555;
+}
+
+.payment-details {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.payment-details h3 {
+    margin-top: 0;
+}
+
+.payment-details label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.payment-details input[type="text"], 
+.payment-details input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
